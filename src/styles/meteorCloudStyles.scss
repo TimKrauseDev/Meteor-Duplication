@@ -1,0 +1,103 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+.meteor-cloud-wrapper .Index-page-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 100px 35px;
+}
+.meteor-cloud-wrapper .section-title {
+  margin-bottom: 50px;
+}
+
+.meteor-cloud-wrapper .content-wrapper {
+  text-align: center;
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #1b2448;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8d91a3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+
+  > div {
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 1px rgba(13, 17, 33, 0.25),
+      0 2px 6px 1px rgba(27, 36, 72, 0.16);
+  }
+}
+
+.item-left,
+.item-right,
+.item-center {
+  padding: 2em;
+
+  .img-wrapper {
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .btn {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 14px 18px;
+    border: 2px solid $purple;
+    color: $purple;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .btn:hover {
+    background-color: $purple-90;
+    color: $white;
+  }
+}
+
+.item-center {
+  background-image: $purple-gradient;
+  background-color: #222854;
+
+  h2,
+  p,
+  button {
+    color: $white !important;
+  }
+
+  .btn {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 1000px),
+  only screen and (max-device-width: 1000px) {
+  .meteor-cloud-wrapper .content-wrapper {
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

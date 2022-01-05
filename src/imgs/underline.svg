@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="10px" viewBox="0 0 79 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="49.6977935%" x2="99.6977935%" y2="49.6977935%" id="linearGradient-1">
+            <stop stop-color="#FF6A3E" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FF6A3E" stop-opacity="0.156862745" offset="33.34375%"></stop>
+            <stop stop-color="#FF6A3E" stop-opacity="0.501960784" offset="65.75%"></stop>
+            <stop stop-color="#FF6A3E" stop-opacity="0.843137255" offset="90.28125%"></stop>
+            <stop stop-color="#FF6A3E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screens-/-Homepage" transform="translate(-360.000000, -1388.000000)" fill="url(#linearGradient-1)">
+            <g id="Why-meteor" transform="translate(0.000000, 1230.000000)">
+                <g id="Content" transform="translate(359.000000, 100.000000)">
+                    <g id="Headline" transform="translate(1.000000, 0.000000)">
+                        <polygon id="Rectangle" points="0 58 69 58 79 68 0 68"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

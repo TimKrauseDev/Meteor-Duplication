@@ -1,0 +1,233 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+#header {
+  padding: 35px;
+
+  .header-inner {
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .header-left,
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-right {
+    justify-content: flex-end;
+    flex-grow: 2;
+    align-self: stretch;
+  }
+
+  .header-branding-logo {
+    width: 115px;
+  }
+
+  .header-nav {
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+  }
+
+  .header-nav-item {
+    position: relative;
+  }
+
+  .header-nav-item > a {
+    padding: 20px;
+    transition: all ease-in-out 0.2s;
+    border-bottom: 3px solid transparent;
+
+    &:not(.nav-btn):hover {
+      border-color: $orange;
+    }
+  }
+
+  .header-inner .nav-btn {
+    text-transform: uppercase;
+    padding: 14px 18px;
+    margin-left: 17px;
+
+    &:hover {
+      border-bottom: 0px;
+    }
+  }
+
+  .btn-bg-solid {
+    border: 2px solid $purple !important;
+    background-color: $purple;
+    color: $white !important;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: $purple-90;
+    }
+  }
+
+  .header-nav-dropdown {
+    position: absolute;
+    top: 42px;
+    background-color: $white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+    border-radius: 8px;
+
+    &.min-width {
+      min-width: 125px;
+    }
+
+    &:hover + a {
+      border-color: $orange;
+    }
+
+    .header-nav-dropdown-item {
+      width: 100%;
+      display: flex;
+    }
+
+    a {
+      color: #1b2448;
+      opacity: 0.7;
+      font-size: 16px;
+      line-height: 19px;
+      white-space: nowrap;
+      padding: 10px;
+      font-weight: 700;
+      width: 100%;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+  .header-nav-item:hover .header-nav-dropdown {
+    visibility: visible;
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+  }
+} //end header
+
+//start mobile header
+.mobile-header-inner {
+  //display: flex;
+  display: none;
+  justify-content: space-between;
+}
+
+.mobile-header-branding-logo {
+  width: 85px;
+}
+
+.mobile-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  margin-left: auto;
+  display: block;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+#mobile-header-nav {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  padding: 0px 35px 35px;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-header-nav-dropdown {
+  display: none;
+
+  &:hover + a {
+    border-color: $orange;
+  }
+}
+
+.mobile-header-nav-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+
+  > a {
+    width: 100%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-item:hover {
+    border-bottom: 2px solid $orange;
+  }
+
+  &:hover {
+    .mobile-header-nav-dropdown {
+      display: block;
+    }
+  }
+}
+
+.mobile-header-nav-dropdown-item {
+  display: flex;
+
+  a {
+    color: #1b2448;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    padding: 10px;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}
+
+.mobile-header-nav-item .nav-btn {
+  text-transform: uppercase;
+  padding: 14px 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#mobile-header-nav {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+#mobile-header-nav.is-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 770px),
+  only screen and (max-device-width: 770px) {
+  .header-inner {
+    display: none !important;
+  }
+
+  .mobile-header-inner {
+    display: flex;
+  }
+
+  #header {
+    padding: 15px 35px;
+  }
+}

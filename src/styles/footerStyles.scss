@@ -1,0 +1,153 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+.footer-wrapper .Index-page-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 35px;
+  gap: 50px;
+  display: grid;
+  grid-template:
+    "newsletter links"
+    "copyright links" auto / 1fr 1fr;
+
+  p {
+    margin: 10px 0px;
+  }
+}
+
+.newsletter-wrapper {
+  grid-area: newsletter;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1b2448;
+    width: 90%;
+    font-weight: 300;
+  }
+
+  a p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: $orange;
+
+    &:after {
+      content: url("../imgs/right_arrow.svg");
+      margin-left: 8px;
+      transition: all ease-in-out 0.2s;
+    }
+
+    &:hover:after {
+      margin-left: 12px;
+    }
+  }
+}
+
+.copyright-wrapper {
+  grid-area: copyright;
+  color: #8d91a3;
+
+  a {
+    color: #8d91a3 !important;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  a.link {
+    color: #1b2448 !important;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0px;
+    font-weight: 300;
+  }
+
+  a.link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: $orange;
+    text-decoration-thickness: 2px;
+  }
+}
+
+.links-wrapper {
+  grid-area: links;
+}
+
+.social-links {
+  margin: 15px 0px 0px;
+  display: flex;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+
+  svg {
+    width: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+  }
+}
+
+.links-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .title {
+    color: #8d91a3;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .link {
+    color: #1b2448;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0px;
+    font-weight: 300;
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      text-decoration-color: $orange;
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px),
+  only screen and (max-device-width: 1000px) {
+  .footer-wrapper {
+    .Index-page-content {
+      grid-template:
+        "newsletter"
+        "links"
+        "copyright"
+        auto / 1fr !important;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    .links-wrapper {
+      gap: 10px;
+    }
+  }
+}

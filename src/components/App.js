@@ -2,25 +2,25 @@ import React from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import Landing0 from "./Landing/Landing0";
-import Landing1 from "./Landing/Landing1";
-import Landing2 from "./Landing/Landing2";
-import Landing3 from "./Landing/Landing3";
-import Landing4 from "./Landing/Landing4";
-import Landing5 from "./Landing/Landing5";
-import Landing6 from "./Landing/Landing6";
+import Banner from "./Landing/Banner";
+import CompaniesUsingMeteor from "./Landing/CompaniesUsingMeteor";
+import WhyMeteor from "./Landing/WhyMeteor";
+import MeteorIntegratesWith from "./Landing/MeteorIntegratesWith";
+import BuiltWithMeteor from "./Landing/BuiltWithMeteor";
+import MeteorCloud from "./Landing/MeteorCloud";
+import OpenSource from "./Landing/OpenSource";
 
 const App = () => {
   return (
-    <div>
+    <div id="app">
       <Header />
-      <Landing0 />
-      <Landing1 />
-      <Landing2 />
-      <Landing3 />
-      <Landing4 />
-      <Landing5 />
-      <Landing6 />
+      <Banner />
+      <CompaniesUsingMeteor />
+      <WhyMeteor />
+      <MeteorIntegratesWith />
+      <BuiltWithMeteor />
+      <MeteorCloud />
+      <OpenSource />
       <Footer />
     </div>
   );

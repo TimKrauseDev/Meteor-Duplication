@@ -1,0 +1,80 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+.companies-using-meteor-wrapper .Index-page-content {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-using-meteor-wrapper .company-img {
+  margin: 30px clamp(20px, 3.5vw, 70px) 10px;
+}
+
+.companies-using-meteor-wrapper {
+  .Index-page-content {
+    position: relative;
+  }
+
+  .companies-container-primary {
+    display: flex;
+    align-items: center;
+    animation: pulse 5s infinite alternate 1s;
+    justify-content: center;
+  }
+
+  .companies-container-secondary {
+    animation: pulse 5s infinite alternate-reverse 1s;
+    transform: translateY(-100%);
+    display: flex;
+    position: absolute;
+    top: 230px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 770px),
+  only screen and (max-device-width: 770px) {
+  .companies-using-meteor-wrapper {
+    .companies-container-primary,
+    .companies-container-secondary {
+      flex-direction: column;
+    }
+
+    .companies-container-secondary {
+      top: 325px !important;
+    }
+  }
+
+  .companies-using-meteor-wrapper {
+    h1 {
+      font-size: 28px;
+      line-height: 31px;
+    }
+  }
+}

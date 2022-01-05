@@ -1,0 +1,41 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+/*
+    MeteorIntegratesWith
+*/
+
+.meteor-integrates-with-wrapper .Index-page-content {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-container-primary {
+  display: flex;
+  justify-content: center;
+}
+
+.meteor-integrates-with-wrapper .company-img {
+  margin: 30px clamp(20px, 2.5vw, 50px) 10px;
+}
+
+@media only screen and (max-width: 1150px),
+  only screen and (max-device-width: 1150px) {
+  .meteor-integrates-with-wrapper .Index-page-content {
+    .companies-container-primary {
+      flex-wrap: wrap;
+      max-width: 550px;
+    }
+  }
+
+  .meteor-integrates-with-wrapper h1 {
+    font-size: 28px;
+    line-height: 31px;
+  }
+}

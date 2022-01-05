@@ -1,0 +1,80 @@
+@import "./PulpFont/stylesheet.css";
+@import "./colors.scss";
+
+.why-meteor-wrapper {
+  overflow: hidden;
+}
+
+.why-meteor-wrapper .Index-page-content {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 35px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: minmax(560px, 1fr) 1fr;
+}
+
+.why-meteor-wrapper .content-left {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-meteor-wrapper {
+  h1:after {
+    content: url("../imgs/underline.svg");
+    display: block;
+    position: relative;
+    bottom: 20px;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 770px),
+  only screen and (max-device-width: 770px) {
+  .why-meteor-wrapper .content-right {
+    display: none;
+  }
+  .why-meteor-wrapper .content-left {
+    margin-left: 0px;
+  }
+  .why-meteor-wrapper .Index-page-content {
+    grid-template-columns: 1fr;
+  }
+
+  .why-meteor-wrapper {
+    h1 {
+      font-size: 28px;
+      line-height: 31px;
+    }
+
+    h1:after {
+      bottom: 0px;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 29px;
+      margin-top: 50px;
+      padding-bottom: 20px;
+    }
+
+    h3 {
+      padding-bottom: 0px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="251px" height="146px" viewBox="0 0 251 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF6A3E" offset="0%"></stop>
+            <stop stop-color="#FF464A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32.5888889,60 C45.567788,60 56.0888889,49.4788991 56.0888889,36.5 C56.0888889,23.5211009 45.567788,13 32.5888889,13 C19.6099898,13 9.08888889,23.5211009 9.08888889,36.5 C9.08888889,49.4788991 19.6099898,60 32.5888889,60 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="19.4679354%" x2="50%" y2="84.6348784%" id="linearGradient-4">
+            <stop stop-color="#FF6A3E" offset="0%"></stop>
+            <stop stop-color="#FF464A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="200.063661%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="66.6220274%" y1="65.4179215%" x2="33.3779726%" y2="33.7184662%" id="linearGradient-6">
+            <stop stop-color="#FF6D6D" stop-opacity="0.474786932" offset="0%"></stop>
+            <stop stop-color="#FFA4A4" stop-opacity="0.495104641" offset="80.0359169%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.499043925" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-7" points="32.0888889 36.6666667 32.0888889 74 64.0888889 55.3333333 64 18.5"></polygon>
+        <linearGradient x1="50%" y1="19.4679354%" x2="50%" y2="84.6348784%" id="linearGradient-8">
+            <stop stop-color="#FF6A3E" offset="0%"></stop>
+            <stop stop-color="#FF464A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.3182674%" y1="0%" x2="30.8836175%" y2="67.2649865%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="66.7145003%" y1="33.7495727%" x2="30.3566128%" y2="69.4688712%" id="linearGradient-10">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFB7B9" stop-opacity="0.917573774" offset="21.2201912%"></stop>
+            <stop stop-color="#FF777A" stop-opacity="0.274120411" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-11" points="0.0888888889 55.3333333 32.0888889 74 32.0888889 36.6666667 0 18.5"></polygon>
+        <linearGradient x1="50%" y1="19.4679354%" x2="50%" y2="84.6348784%" id="linearGradient-12">
+            <stop stop-color="#FF6A3E" offset="0%"></stop>
+            <stop stop-color="#FF464A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="200.063661%" id="linearGradient-13">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9947213%" x2="50%" y2="0%" id="linearGradient-14">
+            <stop stop-color="#FFFFFF" stop-opacity="0.499043925" offset="0.00527871622%"></stop>
+            <stop stop-color="#FFC2C2" stop-opacity="0.499043925" offset="23.7199113%"></stop>
+            <stop stop-color="#FF8F8F" stop-opacity="0.48675153" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-15" points="0.0888888889 18.5 32.0888889 37 64.0888889 18.5 32.0888889 0"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-16">
+            <stop stop-color="#CDCEFF" offset="0%"></stop>
+            <stop stop-color="#161CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screens-/-Homepage-/-Navbar-dropdown" transform="translate(-1241.000000, -3372.000000)">
+            <g id="Services" transform="translate(360.000000, 3231.000000)">
+                <g id="Service" transform="translate(812.000000, 119.000000)">
+                    <g id="Group" transform="translate(70.000000, 23.000000)">
+                        <path d="M15.7044524,36.9684021 C5.70056029,47.3369231 0,59.2834677 0,72 C0,85.4632514 6.38969389,98.0634321 17.5109799,108.84164 M53.2501499,131.051417 C73.4364073,139.212438 98.0014308,144 124.5,144 C149.944359,144 173.605958,139.585794 193.319962,132.009336 M230.085029,110.169487 C242.07086,99.104168 249,86.0200514 249,72 C249,58.4253803 242.504157,45.7281689 231.212063,34.8912618 M193.669152,12.1253545 C173.885636,4.46654737 150.094767,0 124.5,0 C97.8671991,0 73.1875827,4.83618897 52.9437196,13.0728645" id="Shape" stroke-opacity="0.0786713287" stroke="#595DFF" stroke-width="2" stroke-linecap="round"></path>
+                        <g id="Outer-Cube" transform="translate(92.000000, 37.000000)">
+                            <path d="M2.08687911,55.5 L32.0888889,72.8449119 L62.0908987,55.5 L32.0888889,38.1550881 L2.08687911,55.5 Z" id="backface" stroke-opacity="0.082222465" stroke="#595DFF" stroke-width="2" fill="#FF6A3E" opacity="0.19796317"></path>
+                            <polyline id="backface" stroke="#FF0000" opacity="0.3" stroke-linejoin="round" points="32 37 32 0.5 32.5 1"></polyline>
+                            <g id="Inner-Sphere">
+                                <use fill-opacity="0.7" fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                                <use fill-opacity="0.5" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                            </g>
+                            <g id="front-Face" stroke-linejoin="round">
+                                <use fill-opacity="0.4" fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                <use stroke="#FFFFFF" stroke-width="1" fill-opacity="0.5" fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                <use stroke="url(#linearGradient-6)" stroke-width="1" xlink:href="#path-7"></use>
+                            </g>
+                            <g id="front-Face" stroke-linejoin="round">
+                                <use fill-opacity="0.4" fill="url(#linearGradient-8)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <use stroke="#FFFFFF" stroke-width="1" fill-opacity="0.5" fill="url(#linearGradient-9)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <use stroke="url(#linearGradient-10)" stroke-width="1" xlink:href="#path-11"></use>
+                            </g>
+                            <g id="front-Face" stroke-linejoin="round">
+                                <use fill-opacity="0.4" fill="url(#linearGradient-12)" fill-rule="evenodd" xlink:href="#path-15"></use>
+                                <use stroke="#FFFFFF" stroke-width="1" fill-opacity="0.5" fill="url(#linearGradient-13)" fill-rule="evenodd" xlink:href="#path-15"></use>
+                                <use stroke="url(#linearGradient-14)" stroke-width="1" xlink:href="#path-15"></use>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill-opacity="0.84" fill="url(#linearGradient-16)" cx="33.5" cy="23.5" r="18.5"></circle>
+                        <circle id="Oval" fill-opacity="0.84" fill="url(#linearGradient-16)" cx="212.5" cy="23.5" r="18.5"></circle>
+                        <circle id="Oval" fill-opacity="0.84" fill="url(#linearGradient-16)" cx="212.5" cy="123.5" r="18.5"></circle>
+                        <circle id="Oval" fill-opacity="0.84" fill="url(#linearGradient-16)" cx="33.5" cy="123.5" r="18.5"></circle>
+                        <line x1="89.5" y1="54.5" x2="52.5" y2="34.5" id="Path-16" stroke-opacity="0.0786713287" stroke="#595DFF" stroke-width="2"></line>
+                        <line x1="89.5" y1="114" x2="52.5" y2="94" id="Path-16" stroke-opacity="0.0786713287" stroke="#595DFF" stroke-width="2" transform="translate(71.000000, 104.000000) scale(-1, 1) translate(-71.000000, -104.000000) "></line>
+                        <line x1="195" y1="34.5" x2="159" y2="55" id="Path-16" stroke-opacity="0.0786713287" stroke="#595DFF" stroke-width="2"></line>
+                        <line x1="193" y1="94" x2="159" y2="114" id="Path-16" stroke-opacity="0.0786713287" stroke="#595DFF" stroke-width="2" transform="translate(176.000000, 104.000000) scale(-1, 1) translate(-176.000000, -104.000000) "></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
