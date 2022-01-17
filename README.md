@@ -20,33 +20,33 @@ View the live version [Here](https://meteor-duplication-4a081.web.app/).
 ## Directory 
 ###### Starting at SRC not the root
 
-.
+.<br />
 ├── index.js <br />
-├── components
- &nbsp;&nbsp;&nbsp;  ├── App.js
- &nbsp;&nbsp;&nbsp;  ├── Footer.js
- &nbsp;&nbsp;&nbsp;  ├── Header.js
- &nbsp;&nbsp;&nbsp;  └── Landing
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── Banner.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── BuildWithMeteor.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── CompaniesUsingMeteor.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── MeteorCloud.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── MeteorIntegratesWith.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── OpenSource.js
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      └── WhyMeteor.js
-├── imgs
-  &nbsp;&nbsp;&nbsp; └── (Images Sorted)
-├── styles
-  &nbsp;&nbsp;&nbsp; ├── PulpFont
-  &nbsp;&nbsp;&nbsp; ├── BannerStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── builtWithMeteorStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── colors.scss
-  &nbsp;&nbsp;&nbsp; ├── companiesUsingMeteorStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── footerStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── headerStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── index.scss
-  &nbsp;&nbsp;&nbsp; ├── meteorCloudStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── meteorIntegratesWithStyles.scss
-  &nbsp;&nbsp;&nbsp; ├── openSourceStyles.scss
-  &nbsp;&nbsp;&nbsp; └── whyMEteorStyles.scss
+├── components<br />
+ &nbsp;&nbsp;&nbsp;  ├── App.js<br />
+ &nbsp;&nbsp;&nbsp;  ├── Footer.js<br />
+ &nbsp;&nbsp;&nbsp;  ├── Header.js<br />
+ &nbsp;&nbsp;&nbsp;  └── Landing<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── Banner.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── BuildWithMeteor.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── CompaniesUsingMeteor.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── MeteorCloud.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── MeteorIntegratesWith.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── OpenSource.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      └── WhyMeteor.js<br />
+├── imgs<br />
+  &nbsp;&nbsp;&nbsp; └── (Images Sorted)<br />
+├── styles<br />
+  &nbsp;&nbsp;&nbsp; ├── PulpFont<br />
+  &nbsp;&nbsp;&nbsp; ├── BannerStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── builtWithMeteorStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── colors.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── companiesUsingMeteorStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── footerStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── headerStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── index.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── meteorCloudStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── meteorIntegratesWithStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; ├── openSourceStyles.scss<br />
+  &nbsp;&nbsp;&nbsp; └── whyMEteorStyles.scss<br />
     
