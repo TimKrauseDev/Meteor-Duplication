@@ -27,13 +27,13 @@ View the live version [Here](https://meteor-duplication-4a081.web.app/).
  &nbsp;&nbsp;&nbsp;  ├── Footer.js<br />
  &nbsp;&nbsp;&nbsp;  ├── Header.js<br />
  &nbsp;&nbsp;&nbsp;  └── Landing<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── Banner.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── BuildWithMeteor.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── CompaniesUsingMeteor.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── MeteorCloud.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── MeteorIntegratesWith.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── OpenSource.js<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      └── WhyMeteor.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── Banner.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── BuildWithMeteor.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── CompaniesUsingMeteor.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── MeteorCloud.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ├── MeteorIntegratesWith.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ├── OpenSource.js<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     └── WhyMeteor.js<br />
 ├── imgs<br />
   &nbsp;&nbsp;&nbsp; └── (Images Sorted)<br />
 ├── styles<br />
