@@ -36,7 +36,7 @@ View the live version [Here](https://meteor-duplication-4a081.web.app/).
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     └── WhyMeteor.js<br />
 ├── imgs<br />
   &nbsp;&nbsp;&nbsp; └── (Images Sorted)<br />
-├── styles<br />
+└── styles<br />
   &nbsp;&nbsp;&nbsp; ├── PulpFont<br />
   &nbsp;&nbsp;&nbsp; ├── BannerStyles.scss<br />
   &nbsp;&nbsp;&nbsp; ├── builtWithMeteorStyles.scss<br />
