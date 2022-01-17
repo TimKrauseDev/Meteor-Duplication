@@ -4,7 +4,6 @@ View the live version [HERE](https://meteor-duplication-4a081.web.app/).
 
 Design credit to the original [Meteor](https://www.meteor.com/).
 
-___
 
 ## Overview
 
@@ -22,7 +21,7 @@ View the live version [Here](https://meteor-duplication-4a081.web.app/).
 ###### Starting at SRC not the root
 
 .
-├── index.js
+├── index.js <br />
 ├── components
  &nbsp;&nbsp;&nbsp;  ├── App.js
  &nbsp;&nbsp;&nbsp;  ├── Footer.js
