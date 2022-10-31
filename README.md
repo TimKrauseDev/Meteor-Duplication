@@ -1,6 +1,6 @@
 # Meteor Homepage Duplication
 
-Source code for my [Meteor Homepage Duplication](https://meteor-duplication-4a081.web.app/), built with [React](https://reactjs.org/) and modeled off of the homepage for [Meteor](https://www.meteor.com/).
+Source code for my [Meteor Homepage Duplication](https://meteor.timkrause.dev/), built with [React](https://reactjs.org/) and modeled off of the homepage for [Meteor](https://www.meteor.com/).
 
 <img width="600" alt="meteor homepage" src="./src/imgs/meteor_home.PNG">
 
