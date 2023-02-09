@@ -1,18 +1,17 @@
 # Meteor Homepage Duplication
 
-Source code for my [Meteor Homepage Duplication](https://meteor.timkrause.dev/), built with [React](https://reactjs.org/) and modeled off of the homepage for [Meteor](https://www.meteor.com/).
+Duplication of the Metoer's landing page.
 
 <img width="600" alt="meteor homepage" src="./src/imgs/meteor_home.PNG">
 
-## Overview
+## Demo
 
-In this front-end project, I worked to duplicate Meteor's landing page including styling and animation. A few styling and typo bugs were also found during this project, which were then reported to Meteor. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed to [Firebase](https://firebase.google.com/).
+https://meteor.timkrause.dev/
 
-## Technology Used
-The technology used to create this portfolio include:
+## Tech Stack
 
-- React
-- SASS
+**Client:** React, SCSS
 
 ## Contact
-If you have any questions about the front-end project, my work or if you have any opportunities you would I would be a good fit for, please [contact me](https://timkrause.dev/#contact).
+
+If you have any questions about my work or if you have any opportunities you think I would be a good fit for, please [contact me](mailto:timkrausedev@gmail.com).
